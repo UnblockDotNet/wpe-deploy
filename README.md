@@ -1,5 +1,7 @@
 # WPE Deploy
 
+[![npm version](https://badge.fury.io/js/wpe-deploy.svg)](https://badge.fury.io/js/wpe-deploy)
+
 ### A command-line tool for deploying WordPress plugins and themes to WP Engine
 
 
