@@ -9,7 +9,7 @@ const deploy = require('../lib/deploy.js');
 const logError = require('../lib/utils');
 
 function isValidProjectType(type) {
-  return ['theme', 'plugin'].includes(type);
+  return ['theme', 'plugin', 'application'].includes(type);
 }
 
 function isValidDirname(dirname) {
@@ -77,6 +77,7 @@ const questions = [
     choices: [
       { name: 'Theme', value: 'theme' },
       { name: 'Plugin', value: 'plugin' },
+      { name: 'Application', value: 'application' },
     ],
     default: savedConfig ? savedConfig.type : 'theme',
   },
@@ -121,7 +122,7 @@ const questions = [
 ];
 
 program
-  .version('0.0.1', '-v, --version')
+  .version('0.1.0', '-v, --version')
   .usage('[command] [options]')
   .description('deploy a WordPress plugin or theme to WP Engine')
   .option('-e, --env <env>', 'environment to deploy to, staging or production')
