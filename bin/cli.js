@@ -84,7 +84,7 @@ const questions = [
   {
     type: 'input',
     name: 'dirname',
-    message: (answers) => `Name of the ${answers.type} directory`,
+    message: answers => `Name of the ${answers.type} directory`,
     suffix: ':',
     default: savedConfig ? savedConfig.dirname : currentDirname,
     validate: (dirname) => {
