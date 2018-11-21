@@ -1,6 +1,6 @@
 {
   "name": "wpe-deploy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A command-line tool for deploying WordPress plugins and themes to WP Engine",
   "main": "lib/deploy.js",
   "engines": {
