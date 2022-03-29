@@ -1,10 +1,14 @@
-# WPE Deploy
+# WPE Deploy 
 
 [![npm version](https://badge.fury.io/js/wpe-deploy.svg)](https://badge.fury.io/js/wpe-deploy)
 
 ### A command-line tool for deploying WordPress plugins and themes to WP Engine
 
+<br />
 
+> #### ⚠️ This project is no longer actively maintained. Please follow the official WP Engine guide for [deploying using git](https://wpengine.com/support/git/).
+
+<br />
 ## Install
 Install with [npm](https://www.npmjs.com/):
 
